@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Converted output directories (regenerable)
+data/VSCO_*_CR3/
+data/VSCO_*_ARW/
+data/VSCO_*_NEF/
+data/VSCO_*_RAF/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Logs
+*.log
