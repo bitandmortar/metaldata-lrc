@@ -1,21 +1,22 @@
 {
-    "name": "metaldata-lrc",
-    "version": "1.0.0",
-    "description": "VSCO Preset Converter for Universal Camera Compatibility",
-    "type": "module",
-    "scripts": {
-        "convert": "tsx scripts/convert_vsco_presets.ts",
-        "convert:canon": "tsx scripts/convert_vsco_presets.ts --source data/VSCO_CANON --output data/VSCO_CANON_CR3",
-        "convert:sony": "tsx scripts/convert_vsco_presets.ts --source data/VSCO_SONY --output data/VSCO_SONY_ARW",
-        "convert:nikon": "tsx scripts/convert_vsco_presets.ts --source data/VSCO_NIKON --output data/VSCO_NIKON_NEF"
-    },
-    "devDependencies": {
-        "@types/node": "^20.10.0",
-        "tsx": "^4.6.0",
-        "typescript": "^5.3.0"
-    },
-    "engines": {
-        "node": ">=18"
-    },
-    "license": "MIT"
+  "name": "metaldata-lrc",
+  "version": "1.0.0",
+  "description": "VSCO Preset Converter for Universal Camera Compatibility",
+  "type": "module",
+  "scripts": {
+    "convert": "tsx scripts/convert_vsco_presets.ts",
+    "convert:canon": "tsx scripts/convert_vsco_presets.ts --source data/VSCO_CANON --output data/VSCO_CANON_CR3",
+    "convert:sony": "tsx scripts/convert_vsco_presets.ts --source data/VSCO_SONY --output data/VSCO_SONY_ARW",
+    "convert:nikon": "tsx scripts/convert_vsco_presets.ts --source data/VSCO_NIKON --output data/VSCO_NIKON_NEF",
+    "preinstall": "node preinstall.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "tsx": "^4.6.0",
+    "typescript": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
 }

@@ -1,4 +1,5 @@
 # VSCO Preset Converter
+<img width="2400" height="1532" alt="metaldata_lrc" src="https://github.com/user-attachments/assets/459e4351-d8a3-465e-ac42-6beaed92c272" />
 
 Convert camera-specific VSCO Film presets to work with **any modern raw format** (CR3, ARW, NEF, RAF, etc.) by replacing custom camera profiles with Adobe Standard.
 
